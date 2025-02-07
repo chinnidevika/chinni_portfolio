@@ -1,0 +1,531 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	
+  	<!-- css -->
+      <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+	<!-- Add Font Awesome for icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	</head>
+	<body>
+	<!-- Add this sidebar before the fh5co-loader div -->
+	<div class="sidebar">
+		<div class="profile-content">
+			<div class="profile-img-container">
+				<img src="{{url_for('static',filename='chinni.jpg')}}" alt="Profile Photo" class="profile-img">
+			</div>
+			<h1 class="profile-name">Chinni Devika</h1>
+			<div class="social-links">
+				<a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+		</div>
+		<ul class="nav-links">
+			<li>
+				<a href="#fh5co-header">
+					<i class="fas fa-home"></i>
+					<span>Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="#fh5co-about">
+					<i class="fas fa-user"></i>
+					<span>About</span>
+				</a>
+			</li>
+			<li>
+				<a href="#fh5co-resume">
+					<i class="fas fa-graduation-cap"></i>
+					<span>Education</span>
+				</a>
+			</li>
+			<li>
+				<a href="#fh5co-skills">
+					<i class="fas fa-tools"></i>
+					<span>Skills</span>
+				</a>
+			</li>
+			<li>
+				<a href="#fh5co-projects">
+					<i class="fas fa-laptop-code"></i>
+					<span>Projects</span>
+				</a>
+			</li>
+			<li>
+				<a href="#fh5co-consult">
+					<i class="fas fa-envelope"></i>
+					<span>Contact</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="fh5co-loader"></div>
+	
+	<div id="main">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
+		<div class="header-box">
+			
+
+			<!-- Existing content -->
+		<div class="container">
+			<div class="row">
+					<div class="col-md-8">
+						<div class="header-content">
+							<div class="welcome-box">
+								<h1 class="welcome-text" style="font-size: 72px; margin: 0; font-family: 'Playfair Display', serif; color: #e0b0ff; white-space: nowrap;">Welcome to my Portfolio</h1>
+							</div>
+							
+							<div style="margin-top: 20px;">
+								<h1 style="font-size: 82px; font-family: 'Playfair Display', serif; color: #ffffff;">Hi, I'm</h1>
+								<h1 style="font-size: 82px; font-family: 'Playfair Display', serif;"><span class="typed-text"></span></h1>
+								<h2 style="font-size: 48px; font-family: 'Playfair Display', serif; color: #ffffff;">Data Science Student</h2>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Profile circle container remains unchanged -->
+			<div class="profile-circle-container">
+				<div class="profile-circle">
+					<div class="profile-image">
+						<img src="{{url_for('static',filename='chinni.jpg')}}" alt="Profile Photo">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="section-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<div class="heading-box">
+							<h2>About Me</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Current Details Box -->
+					<div class="col-md-12">
+						<div class="timeline-panel" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1); height: 100%;">
+							
+							
+							<p style="color: #fff; margin-top: 20px; font-family: 'Playfair Display', serif; font-size: 18px; line-height: 1.8;">
+								I am a passionate final year BSc Data Science student at K.B.N College, with a keen interest in data analytics and machine learning. Throughout my academic journey, I have developed strong analytical skills and a deep understanding of statistical concepts.I have completed several academic projects that have enhanced my practical knowledge in data visualization, predictive modeling, and statistical analysis. My coursework has equipped me with proficiency in programming languages such as Python and R, along with experience in using various data analysis tools and frameworks.I am particularly interested in applying data science solutions to real-world problems and am always eager to learn new technologies and methodologies in this rapidly evolving field.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row mt-4">
+    <div class="col-12 text-center">
+        <div class="download-cv">
+            <a href="{{url_for('static',filename='chinni_resume.pdf')}}" download class="cv-btn">
+                <i class='bx bx-download'></i> Download CV
+            </a>
+        </div>
+    </div>
+</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12" style="padding: 0;">
+					<div class="education-background-box">
+						<div class="education-box-container">
+							<div class="row animate-box">
+								<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+									<div class="heading-box">
+										<h2>Education</h2>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row animate-box">
+								<div class="col-md-12 text-center">
+									<div class="history-heading-box">
+										<h3>EDUCATION HISTORY</h3>
+									</div>
+								</div>
+							</div>
+							
+							<div class="education-timeline">
+								<!-- Bachelor's Box -->
+								<div class="education-item left">
+									<div class="timeline-icon">
+										<i class="fas fa-graduation-cap"></i>
+									</div>
+									<div class="education-box" style="width: 120%; margin-left: -20%;">
+										<h3 style="color: #00ffff; font-family: 'Playfair Display', serif;">Bachelor of Science</h3>
+										<p class="college">K.B.N College - 2022 - 2025</p>
+										<div class="progress-section">
+											<div class="progress-label">
+												<span class="aggregate-text">Aggregate</span>
+												<span class="percentage">86%</span>
+											</div>
+											<div class="progress-line" style="background: rgba(255, 255, 255, 0.1); height: 6px; border-radius: 3px; margin: 10px 0;">
+												<div class="progress-fill purple-gradient" style="width: 86%; height: 100%; border-radius: 3px; background: linear-gradient(to right, #e0b0ff, #9370db);"></div>
+											</div>
+										</div>
+										<p class="specialization">Specialization in Data Science with focus on machine learning, data analytics, and statistical modeling.</p>
+									</div>
+								</div>
+
+								<!-- Intermediate Box -->
+								<div class="education-item right">
+									<div class="timeline-icon">
+										<i class="fas fa-graduation-cap"></i>
+									</div>
+									<div class="education-box" style="width: 120%; margin-right: -20%;">
+										<h3 style="color: #00ffff; font-family: 'Playfair Display', serif;">Intermediate</h3>
+										<p class="college">K.B.N College - 2020 - 2022</p>
+										<div class="progress-section">
+											<div class="progress-label">
+												<span class="aggregate-text">Aggregate</span>
+												<span class="percentage">74%</span>
+											</div>
+											<div class="progress-line" style="background: rgba(255, 255, 255, 0.1); height: 6px; border-radius: 3px; margin: 10px 0;">
+												<div class="progress-fill pink-gradient" style="width: 74%; height: 100%; border-radius: 3px; background: linear-gradient(to right, #ff69b4, #ff1493);"></div>
+											</div>
+										</div>
+										<p class="specialization">Specialization in Mathematics, Physics, and Chemistry (MPC)</p>
+									</div>
+								</div>
+
+								<!-- SSC Box -->
+								<div class="education-item left">
+									<div class="timeline-icon">
+										<i class="fas fa-graduation-cap"></i>
+									</div>
+									<div class="education-box" style="width: 120%; margin-left: -20%;">
+										<h3 style="color: #00ffff; font-family: 'Playfair Display', serif;">SSC</h3>
+										<p class="college">G.N.R MC High School - 2019 - 2020</p>
+										<div class="progress-section">
+											<div class="progress-label">
+												<span class="aggregate-text">Aggregate</span>
+												<span class="percentage">89%</span>
+											</div>
+											<div class="progress-line" style="background: rgba(255, 255, 255, 0.1); height: 6px; border-radius: 3px; margin: 10px 0;">
+												<div class="progress-fill blue-gradient" style="width: 89%; height: 100%; border-radius: 3px; background: linear-gradient(to right, #00bfff, #1e90ff);"></div>
+											</div>
+										</div>
+										<p class="specialization">Completed Secondary School Education with distinction</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="skills-container" style="background: rgba(255, 255, 255, 0.05); padding: 50px 0; border-radius: 15px; margin: 20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="heading-box">
+							<h2>Skills</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="display: flex; justify-content: center;">
+					<div class="col-md-5" style="display: flex;">
+						<!-- Programming Skills Box -->
+						<div class="timeline-panel" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1); margin: 15px; flex: 1; display: flex; flex-direction: column; align-items: center;">
+							<div class="get-in-touch" style="width: 100%;">
+								<h3 style="color: #00ffff; margin-bottom: 30px; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 28px;">
+									<i class="fas fa-code" style="font-size: 28px; margin-right: 15px;"></i>
+									Programming
+								</h3>
+							</div>
+							<ul style="list-style: none; padding: 0; margin: 0; color: #ffffff; font-family: 'Playfair Display', serif; font-size: 20px; width: 100%;">
+								<li style="margin: 20px 0; display: flex; align-items: center; justify-content: center;">
+									<i class="fab fa-java" style="font-size: 24px; margin-right: 15px; color: #ffffff;"></i>
+									<span style="color: #ffffff; font-family: 'Playfair Display', serif;">Java</span>
+								</li>
+								<li style="margin: 20px 0; display: flex; align-items: center; justify-content: center;">
+									<i class="fab fa-python" style="font-size: 24px; margin-right: 15px; color: #ffffff;"></i>
+									<span style="color: #ffffff; font-family: 'Playfair Display', serif;">Python</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-5" style="display: flex;">
+						<!-- Web Development Skills Box -->
+						<div class="timeline-panel" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 30px; border: 1px solid rgba(255, 255, 255, 0.1); margin: 15px; flex: 1; display: flex; flex-direction: column; align-items: center;">
+							<div class="get-in-touch" style="width: 100%;">
+								<h3 style="color: #00ffff; margin-bottom: 30px; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 28px;">
+									<i class="fas fa-globe" style="font-size: 28px; margin-right: 15px;"></i>
+									Web Technology
+								</h3>
+							</div>
+							<ul style="list-style: none; padding: 0; margin: 0; color: #ffffff; font-family: 'Playfair Display', serif; font-size: 20px; width: 100%;">
+								<li style="margin: 20px 0; display: flex; align-items: center; justify-content: center;">
+									<i class="fab fa-html5" style="font-size: 24px; margin-right: 15px; color: #ffffff;"></i>
+									<span style="color: #ffffff; font-family: 'Playfair Display', serif;">HTML</span>
+								</li>
+								<li style="margin: 20px 0; display: flex; align-items: center; justify-content: center;">
+									<i class="fab fa-css3-alt" style="font-size: 24px; margin-right: 15px; color: #ffffff;"></i>
+									<span style="color: #ffffff; font-family: 'Playfair Display', serif;">CSS</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-projects" class="animate-box">
+		<div class="projects-container">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<div class="heading-box">
+							<h2>Projects</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					
+					<!-- Cinemax Project -->
+					<div class="col-md-6">
+						<div class="project-box" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 30px;">
+							<div class="project-header" style="display: flex; align-items: center; margin-bottom: 20px;">
+								<div class="project-icon" style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; margin-right: 20px;">
+									<img src="{{url_for('static',filename='pro1.jpg')}}" alt="Cinemax" style="width: 100%; height: 100%; object-fit: cover;">
+								</div>
+								<h3 style="color: #00ffff; margin: 0; font-family: 'Playfair Display', serif;">Cinemax</h3>
+							</div>
+							<div class="project-details">
+								<p style="color: #fff; margin-bottom: 15px;">Movie Ticket Booking Platform with seat selection and payment integration.</p>
+								<div class="technologies" style="margin-bottom: 20px;">
+									<h4 style="color: #e0b0ff; font-family: 'Playfair Display';font-size: 18px; margin-bottom: 10px;">Technologies Used:</h4>
+									<ul style="list-style: none; padding: 0; color: #fff;">
+										<li style="margin-bottom: 5px;"><i class="fab fa-html5" style="margin-right: 10px;"></i>HTML5</li>
+										<li style="margin-bottom: 5px;"><i class="fab fa-css3-alt" style="margin-right: 10px;"></i>CSS3</li>
+										<li style="margin-bottom: 5px;"><i class="fab fa-js" style="margin-right: 10px;"></i>JavaScript</li>
+									</ul>
+								</div>
+								<a href="https://github.com/chinnidevika/Task4.git" class="btn btn-primary" style="background: rgba(60, 122, 199, 0.3); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; font-family: 'Playfair Display', serif;">
+									<i class="fab fa-github" style="margin-right: 10px;"></i>Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Fine Arts Project -->
+					<div class="col-md-6">
+						<div class="project-box" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 30px;">
+							<div class="project-header" style="display: flex; align-items: center; margin-bottom: 20px;">
+								<div class="project-icon" style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; margin-right: 20px;">
+									<img src="{{url_for('static',filename='pro2.jpg')}}" alt="Fine Arts" style="width: 100%; height: 100%; object-fit: cover;">
+								</div>
+								<h3 style="color: #00ffff; margin: 0; font-family: 'Playfair Display', serif;">Fine Arts</h3>
+							</div>
+							<div class="project-details">
+								<p style="color: #fff; margin-bottom: 15px;">Art & Culture Portfolio showcasing creative works and artistic expressions.</p>
+								<div class="technologies" style="margin-bottom: 20px;">
+									<h4 style="color: #e0b0ff; font-size: 18px; margin-bottom: 10px;">Technologies Used:</h4>
+									<ul style="list-style: none; padding: 0; color: #fff;">
+										<li style="margin-bottom: 5px;"><i class="fab fa-html5" style="margin-right: 10px;"></i>HTML5</li>
+										<li style="margin-bottom: 5px;"><i class="fab fa-css3-alt" style="margin-right: 10px;"></i>CSS3</li>
+										<li style="margin-bottom: 5px;"><i class="fab fa-js" style="margin-right: 10px;"></i>JavaScript</li>
+									</ul>
+								</div>
+								<a href="https://github.com/chinnidevika/Task1.git" class="btn btn-primary" style="background: rgba(60, 122, 199, 0.3); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; font-family: 'Playfair Display', serif;">
+									<i class="fab fa-github" style="margin-right: 10px;"></i>Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+
+					
+					<!-- Cyme Bot Project -->
+					<div class="col-md-6 col-md-offset-3">
+						<div class="project-box" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 30px;">
+							<div class="project-header" style="display: flex; align-items: center; margin-bottom: 20px;">
+								<div class="project-icon" style="width: 60px; height: 60px; border-radius: 50%; overflow: hidden; margin-right: 20px;">
+									<img src="{{url_for('static',filename='cyme.webp')}}" alt="Cyme Bot" style="width: 100%; height: 100%; object-fit: cover;">
+								</div>
+								<h3 style="color: #00ffff; margin: 0; font-family: 'Playfair Display', serif;">Cyme Bot</h3>
+							</div>
+							<div class="project-details">
+								<p style="color: #fff; margin-bottom: 15px;">An intelligent chatbot built with Python and RASA framework for automated conversations and task assistance.</p>
+								<div class="technologies" style="margin-bottom: 20px;">
+									<h4 style="color: #e0b0ff; font-size: 18px; margin-bottom: 10px;">Technologies Used:</h4>
+									<ul style="list-style: none; padding: 0; color: #fff;">
+										<li style="margin-bottom: 5px;"><i class="fab fa-python" style="margin-right: 10px;"></i>Python</li>
+										<li style="margin-bottom: 5px;"><i class="fas fa-robot" style="margin-right: 10px;"></i>RASA</li>
+										<li style="margin-bottom: 5px;"><i class="fas fa-brain" style="margin-right: 10px;"></i>NLP</li>
+									</ul>
+								</div>
+								<a href="https://github.com/chinnidevika/cyme.git" class="btn btn-primary" style="background: rgba(60, 122, 199, 0.3); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; font-family: 'Playfair Display', serif;">
+									<i class="fab fa-github" style="margin-right: 10px;"></i>Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-consult" class="animate-box">
+		<div class="contact-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<div class="heading-box">
+						<h2>Contact Me</h2>
+					</div>
+					</div>
+			</div>
+			<div class="contact-boxes-wrapper">
+				<!-- Get In Touch Box -->
+				<div class="contact-box-col">
+					<div class="contact-box">
+						<div class="get-in-touch">
+							<h3 style="color: #ffffff !important;">Contact Details</h3>
+						</div>
+						<div class="contact-details-wrapper">
+							<div class="contact-info-item">
+								<div class="info-label">
+									<i class="fas fa-map-marker-alt"></i>
+									<h4 style="color: #ffffff !important;">Location:</h4>
+								</div>
+								<p style="color: #ffffff !important;">Andhra Pradesh, India</p>
+							</div>
+
+							<div class="contact-info-item">
+								<div class="info-label">
+									<i class="fas fa-envelope"></i>
+									<h4 style="color: #ffffff !important;">Email:</h4>
+								</div>
+								<p style="color: #ffffff !important;">chinnidevika2005@gmail.com</p>
+							</div>
+
+							<div class="contact-info-item">
+								<div class="info-label">
+									<i class="fas fa-phone"></i>
+									<h4 style="color: #ffffff !important;">Call:</h4>
+								</div>
+								<p style="color: #ffffff !important;">+91 6300517323</p>
+							</div>
+								</div>
+							<div class="social-links" style="margin-top: 25px;">
+								<a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+								<a href="#"><i class="fab fa-linkedin"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+							</div>
+								</div>
+
+				<!-- Send Message Box -->
+				<div class="contact-box-col">
+					<div class="contact-box">
+						<div class="get-in-touch">
+							<h3 style="color: #ffffff !important;">Send Message</h3>
+							</div>
+						<div class="form-wrapper">
+							<form id="contactForm" onsubmit="handleSubmit(event)">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" name="name" class="form-control" placeholder="Your Name" required>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="email" name="email" class="form-control" placeholder="Your Email" required>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<input type="text" name="subject" class="form-control" placeholder="Subject" required>
+								</div>
+								<div class="form-group">
+									<textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+								</div>
+								<div class="form-group text-center">
+									<button type="submit" class="btn btn-primary" style="background: rgba(60, 122, 199, 0.3); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; padding: 10px 20px; border-radius: 5px; font-family: 'Playfair Display', serif;">
+										Send Message
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	
+	
+	<!-- Update the scroll highlight script -->
+	<script>
+		// Highlight active section on scroll
+		window.addEventListener('scroll', () => {
+			let scrollPosition = window.scrollY + 200;
+			
+			document.querySelectorAll('[id^="fh5co-"]').forEach(section => {
+				if (section.offsetTop <= scrollPosition && 
+					(section.offsetTop + section.offsetHeight) > scrollPosition) {
+					
+					document.querySelectorAll('.nav-links a').forEach(link => {
+						link.classList.remove('active');
+						if(link.getAttribute('href').substring(1) === section.getAttribute('id')) {
+							link.classList.add('active');
+						}
+					});
+				}
+			});
+		});
+
+		// Smooth scroll for sidebar links
+		document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	</script>
+
+	<!-- Add this script before closing body tag -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		// Typing effect for name
+		var typed = new Typed('.typed-text', {
+			strings: ['Chinni Devika'],
+			typeSpeed: 100,
+			loop: false,
+			showCursor: true,
+			cursorChar: '|',
+			onComplete: function(self) {
+				self.cursor.style.display = 'none';
+			}
+		});
+	</script>
+
+	
+
